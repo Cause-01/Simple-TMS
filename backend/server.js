@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 const port = 3000;
-
+const vehicleRoutes = require('./vehicle');
 app.use(bodyParser.json());
 
 let orders = [
@@ -23,3 +23,6 @@ app.post('/orders', (req, res) => {
 app.listen(port, () => {
     console.log(`TMS server running on http://localhost:${port}`);
 });
+
+app.use('/api', vehicleRoutes);
+
