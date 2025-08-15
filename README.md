@@ -1,6 +1,6 @@
 # TMS 项目
 
-coz运输管理系统（TMS）。
+coz（TMS）。
 
 ## 前端
 
@@ -8,4 +8,5 @@ coz运输管理系统（TMS）。
 
 ```bash
 npm install
+
 npm run serve
