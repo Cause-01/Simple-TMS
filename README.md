@@ -1,7 +1,7 @@
 # Simple-TMS
 # TMS 
 
-coz运输管理系统（TMS）。
+Coz（TMS）。
 
 ## 前端
 
