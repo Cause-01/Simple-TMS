@@ -26,3 +26,13 @@ app.listen(port, () => {
 
 app.use('/api', vehicleRoutes);
 
+// 引入车辆 API
+const vehicleRoutes = require('./vehicle');
+app.use('/api', vehicleRoutes);  // 所有车辆相关的 API 路由都会加上 /api 前缀
+
+app.listen(port, () => {
+  console.log(`TMS server running on http://localhost:${port}`);
+});
+
+
+
