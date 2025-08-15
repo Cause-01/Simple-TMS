@@ -1,6 +1,6 @@
 # TMS 项目
 
-coz（TMS）。
+简陋的（TMS）。。。
 
 ## 前端
 frontend目录下的node_modules需手动添加
@@ -11,3 +11,4 @@ frontend目录下的node_modules需手动添加
 npm install
 
 npm run serve
+
