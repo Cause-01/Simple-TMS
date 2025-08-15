@@ -1,12 +1,19 @@
-# Simple-TMS
-# TMS 
+# 运输管理系统 (TMS)
 
-Coz（TMS）。
+这是一个简单的运输管理系统，包含了订单管理、车辆管理、司机管理等功能。
 
-## 前端
+## 功能
+- 运输订单管理
+- 车辆管理
+- 司机管理
 
-使用 Vue.js 构建，运行命令：
+## 安装与运行
 
-```bash
-npm install
-npm run serve
+1. 克隆仓库
+2. 安装依赖：
+   - 后端：进入 `backend` 目录，运行 `npm install`。
+   - 前端：进入 `frontend` 目录，运行 `npm install`。
+
+3. 启动后端服务：
+   ```bash
+   node server.js
