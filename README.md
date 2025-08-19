@@ -3,12 +3,16 @@
 简陋的（TMS）。。。
 
 ## 前端
-frontend目录下的node_modules需手动添加
+node自行添加
 
-使用 Vue.js 构建，运行命令：
-
-```bash
+#frontend
 npm install
 
 npm run serve
+## 后端
+#backend
+npm install
+
+npm start
+
 
