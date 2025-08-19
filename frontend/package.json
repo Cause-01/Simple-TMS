@@ -10,19 +10,21 @@
     "preview": "npm install -g serve && serve dist",
     "clean": "rimraf node_modules dist",
     "postinstall": "npm run lint"
-
   },
   "dependencies": {
+    "@mdi/js": "^7.4.47",
     "axios": "^1.3.0",
     "vue": "^3.2.45",
-    "vue-router": "^4.0.0"
+    "vue-router": "^4.0.0",
+    "vuetify": "^3.9.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "@vue/compiler-sfc": "^3.2.45",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "sass": "^1.90.0",
+    "sass-loader": "^13.3.3"
   }
-
 }
